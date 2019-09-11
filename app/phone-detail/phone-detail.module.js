@@ -5,3 +5,5 @@ angular.module('phoneDetail', [
   'ngRoute',
   'core.phone'
 ]);
+
+require('./phone-detail.component')

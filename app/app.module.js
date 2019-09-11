@@ -1,5 +1,9 @@
 'use strict';
 
+require('angular');
+require('angular-animate');
+require('angular-route');
+
 // Define the `phonecatApp` module
 angular.module('phonecatApp', [
   'ngAnimate',
@@ -8,3 +12,6 @@ angular.module('phonecatApp', [
   'phoneDetail',
   'phoneList'
 ]);
+
+require('./app.config')
+require('./app.animations')
